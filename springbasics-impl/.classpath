@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ashishg/.m2/repository/asg/springbasics/springbasics-api/1.0-SNAPSHOT/springbasics-api-1.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="asg.springbasics"/>
+			<attribute name="maven.artifactId" value="springbasics-api"/>
+			<attribute name="maven.version" value="1.0-SNAPSHOT"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/springbasics-api"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
